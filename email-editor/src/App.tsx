@@ -1,7 +1,5 @@
-import Test from './components/Test'
+import Home from "./Home";
 
 export default function App() {
-  return (
-    <Test />
-  )
+  return <Home />;
 }
