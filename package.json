@@ -4,6 +4,7 @@
     "typescript": "^5.5.4"
   },
   "dependencies": {
+    "html-react-parser": "^5.1.14",
     "lucide-react": "^0.436.0"
   }
 }
