@@ -8,7 +8,7 @@ export default function EmailEditor() {
   const [selectionStart, setSelectionStart] = useState(0);
   const [selectionEnd, setSelectionEnd] = useState(0);
   const [text, setText] = useState(
-    "Hey hello - this is email editor. My project - good luck"
+    "Удалите настоящий текст и ведите свой для его дальнейшего редактирования. Этот редактор позволяет удалить, сделать жирным, сделать курсивным и подчеркнутым текст."
   );
   const textRef = useRef<HTMLAreaElement | null>(null);
   const updateSelection = () => {
@@ -26,7 +26,7 @@ export default function EmailEditor() {
   };
 
   return (
-    <div>
+    <div className={style.wrapper}>
       <h1>Email editor</h1>
       <div className={style.preview}>{parse(text)}</div>
       <div className={style.card}>
@@ -37,7 +37,6 @@ export default function EmailEditor() {
           onSelect={updateSelection}
           ref={textRef}
           value={text}
-          readOnly
           onChange={(e) => setText(e.target.value)}
         >
           hey lorem ipsum hey lorem ipsum hey lorem ipsum hey lorem ipsum hey

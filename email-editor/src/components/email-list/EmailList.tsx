@@ -5,7 +5,7 @@ export default function EmailList() {
   return (
     <div className={style.list}>
       <div>
-        handom text hey lorem ipsum hey lorem ipsum hey lorem ipsum hey lorem ipsum hey lorem ipsum hey lorem ipsum hey lorem ipsum hey lorem ipsum
+        аhandom text hey lorem ipsum hey lorem ipsum hey lorem ipsum hey lorem ipsumа hey lorem ipsum hey lorem ipsum hey lorem ipsum hey lorem ipsum
       </div>
     </div>
   )
